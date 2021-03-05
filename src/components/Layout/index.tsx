@@ -1,9 +1,17 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container, Wrapper } from './styles';
 
 const  Layout: React.FC = () => {
-  return <div />;
+  return (
+    <Container>
+        <Wrapper>
+            {/* <MenuBar /> */}
+            {/* <Maain /> */}
+            {/* <SideBar /> */}   
+        </Wrapper>
+    </Container>
+  );
 }
 
 export default Layout;
